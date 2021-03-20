@@ -1,0 +1,8 @@
+https://cdn.shopify.com/s/files/1/1189/3134/products/gbt-27449-51847-f-a-1.jpg
+
+
+انهارده taylor otwel شغال على package جديدة اسمها laravel octane ... و اتعملت علشان ال performance بتاع laravel يتحسن ... فعلى سبيل المثال فى الصورتين اللى تحت ال framework قدرت تشيل 6k request per second بدل ما كنت بترد ب 300 request per second 
+
+الفكرة بتعتها إن ال framework مش حتضطر تعمل boot مع كل request ... يعنى كل ال bootstraping حيبقى موجود فى ال memory بدل ما كان بيحصل مع كل request
+
+ال package حتشتغل مع اتنين servers حاليا... و هما swoole & road runner ... و دول async request servers
